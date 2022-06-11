@@ -12,9 +12,9 @@ func sum(n int) (sum int) {
 	invariant sum == i * (i-1)/2
 	for i := 0; i <= n; i++ {
 			sum += i
-			if i > 10 {
-				sum +=1
-			}
+			//if i > 10 {
+			//	sum +=1
+			//}
 	}
 	return sum
 }
